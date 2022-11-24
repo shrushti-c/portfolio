@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nabla&family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  background-color: lavender;
+}
+
+.home, .projects, .contact{
+  display: flex;
+  height: 200x;
+  align-items: center;
+  justify-content: center;
+  font-size: 3px;
+}
+.projects{
+  width: 100%;
+  padding: 2%;
+  background-color: lavender;
+  font-size: large;
+}
+.projects-container{
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-gap: 40px;
+  
+}
+
+.card:hover{
+  background-color: beige;
+
+}
+.card{
+  text-align: center;
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.headerImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+h2{
+  text-align:center;
+  padding: 15px;
+  margin: auto;
+}
+h1{
+
+  text-align:center;
+  padding: 15px;
+  margin: auto;
+  text-decoration: underline;
+}
+
+h3,p{
+  font-size: medium;
+  margin: 5px;
+  padding: 5px;
+box-sizing: border-box;
+border: 1px dashed  black;
+}
+
+@media ( orientation: portrait ) {
+  .card:hover{
+   background-color: pink;
+
+  }
+  h1,h2,h3,p{
+    color: purple;
+  }
+}

@@ -1,0 +1,40 @@
+.footer-container{
+    position: -webkit-sticky;
+
+    bottom: 0;
+    background-color: lavender;
+    width: 100%;
+    display: flex;
+    
+   
+}
+.footerText{
+    color: black;
+    font-size: 20px;
+    padding: 1%;
+    display: flex;
+   justify-content: space-between;
+}
+.footer-links{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+    margin: 2px;
+    padding: 2px;
+    
+
+}
+.links:hover{
+    opacity: 50%;
+
+}
+img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50px;
+    padding: 10px;
+    margin: 2px;
+
+
+}
